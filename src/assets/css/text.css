@@ -1,0 +1,109 @@
+
+
+.text-center {
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--grayStrong);
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--grayStrong);
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--grayStrong);
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--grayStrong);
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--grayStrong);
+}
+
+h1.thin, h2.thin, h3.thin, h4.thin, h5.thin {
+    font-weight:400;
+}
+
+h1.regular, h2.regular, h3.regular, h4.regular, h5.regular {
+    font-weight:500;
+}
+
+.gray-strong { color: var(--grayStrong) }
+.gray-middlest { color: var(--grayMiddlest) }
+.gray-light { color: var(--grayLight) }
+
+.white {
+    color: #ffffff;
+}
+
+/****** Links ******/
+
+.link {
+    font-weight: 500;
+    font-size: 15px;
+    color: #638CE2;
+    text-decoration: underline;
+}
+
+.link:hover {
+    color: #3C6FDB;
+    text-decoration: underline;
+}
+
+.link-white {
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.link-white:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.link-white svg {
+    margin-right: 5px;
+}
+
+/****** Horizontal Separator w/ Inline Text ******/
+
+.horizontal-separator {
+    overflow: hidden;
+    text-align: center;
+    font-size: 16px;
+    color: #828282;
+}
+  
+.horizontal-separator:before, .horizontal-separator:after {
+    background-color: #828282;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+  
+.horizontal-separator:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+  
+.horizontal-separator:after {
+    left: 0.5em;
+    margin-right: -50%;
+}

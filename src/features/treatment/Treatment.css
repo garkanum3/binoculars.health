@@ -1,0 +1,10 @@
+
+
+.treatment-container {
+    border-radius: var(--borderRadius);
+    border: 1px solid var(--grayLight);
+}
+
+.treatment-header {
+    margin-bottom: 1.5em;
+}

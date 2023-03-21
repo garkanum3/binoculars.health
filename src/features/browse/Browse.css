@@ -1,0 +1,102 @@
+
+.browse-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.browse-stats {
+    text-align: right;
+}
+
+.browse-stats h3 {
+    margin-bottom: 0px !important;
+}
+
+.browse-categories-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2em;
+}
+
+
+/****** Treatment Cards ******/
+
+.treatment-card {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    margin-bottom: 2em;
+    cursor: pointer;
+}
+
+.treatment-card:hover{
+    box-shadow: var(--cardHoverShadow);
+}
+
+.treatment-card-info {
+    padding-right: 2em;
+}
+
+.treatment-card-info p {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+
+.treatment-card-prices {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+}
+
+.treatment-card-stats {
+    text-align: center;
+    width: 150px;
+}
+
+.treatment-card-stats h2 {
+    font-weight: 700;
+    color: var(--grayStrong);
+    margin-bottom: 0;
+}
+
+.treatment-card-stats p {
+    font-size: 12px;
+    color: var(--grayMiddlest);
+    margin-bottom: 0;
+}
+
+/****** Category Card ******/
+
+.category-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--borderRadius);
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+    padding: 2em 0;
+    cursor: pointer;
+}
+
+.category-card:hover {
+    box-shadow: var(--cardHoverShadow);
+}
+
+.category-card img {
+    height: 32px;
+    width: 32px;
+    object-fit: contain;
+    margin-bottom: 5px;
+}
+
+.category-card h5 {
+    margin-bottom: 0px;
+    color: var(--primaryColor);
+}

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+html, body, #root {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-size:14px;
+    font-family: "Open Sans", sans-serif !important;
+    overflow: hidden;
+    margin: 0 !important;
+    line-height: 1.5 !important;
+    background-color: var(--secondaryColor);
+}
+
+:root {
+    --primaryColor: #B46060;
+    --secondaryColor: #F5EBEB;
+    --grayStrong: #545454;
+    --grayMiddle: #828282;
+    --grayLight: #cfcfcf;
+    --borderRadius: 12px;
+    --cardHoverShadow: 0px 0px 10px rgba(37, 40, 43, 0.2);
+}
+
+.page-wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+.content-wrapper {
+    height: calc(100% - 60px);
+    width: 100%;
+    overflow: hidden;
+}
+
+.content-container {
+    position: relative;
+    z-index: 1;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 1em auto 0 auto;
+    padding-bottom: 3em;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: var(--borderRadius);
+    padding: 1.5em;
+    border: 1px solid #ffffff;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 1em;
+    color: #545454;
+}

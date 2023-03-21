@@ -1,0 +1,32 @@
+
+.home-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+
+/****** Featured Categories ******/
+
+.featured-category-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.featured-category-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2em;
+}
+
